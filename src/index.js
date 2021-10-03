@@ -44,7 +44,7 @@ export class Quiz extends Component {
     console.log(this.state.response);
     return (
       <div className="container" >
-        <div className="title">Quiz</div>
+        <div className="title" style={{textAlign:'center',fontWeight:'bold'}}>Quiz</div>
         {
           this.state.questionBank.length > 0 &&
           this.state.response < 5 &&
